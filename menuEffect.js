@@ -17,6 +17,7 @@ for (var i = 0; i < buttons.length; i++) {
         }
         hover.classList.add('effectClick');
         hover.classList.remove('effectActive', 'effectActiveOut');
+        console.log('hello')
     }
     function hoverEffect(event) {
         var target = event.target;
