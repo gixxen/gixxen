@@ -100,7 +100,7 @@ display: inline-block;
 }
 .slideDown{
   position: relative;
-height: 500px;
+height: 300px;
 width: 100%;
 margin: auto;
 opacity: 0;
@@ -113,7 +113,7 @@ opacity: 0;
   z-index: 99;
 }
 .block{
-  height: 500px;
+  height: 300px;
   width: 100%;
   margin: 20px auto;
   clear: both;
@@ -132,7 +132,7 @@ opacity: 0;
 }
 @keyframes slideDown{
   from {height: 0; opacity: 0;}
-  to {height: 500px; opacity: 1}
+  to {height: 300px; opacity: 1}
 }
 @keyframes slideUp{
   from {display: none; opacity: 0; bottom: 100px;}
