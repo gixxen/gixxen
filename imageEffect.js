@@ -6,6 +6,7 @@ function animate() {
     document.querySelectorAll('.slideUp').forEach(element => {
         element.classList.add('slideUpActive');
     });
+
 }
 
 

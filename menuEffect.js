@@ -17,8 +17,8 @@ for (var i = 0; i < buttons.length; i++) {
         }
         hover.classList.add('effectClick');
         hover.classList.remove('effectActive', 'effectActiveOut');
-        console.log('hello')
     }
+
     function hoverEffect(event) {
         var target = event.target;
         var hover = target.effect;
@@ -29,15 +29,15 @@ for (var i = 0; i < buttons.length; i++) {
             hover.classList.add('effectActive');
         }
     }
+
     function hoverEffectOut(event) {
         var target = event.target;
         var hover = target.effect;
         if (hover.classList.contains('effectClick')) {
-            
+
         } else {
             hover.classList.remove('effectActive');
             hover.classList.add('effectActiveOut');
         }
     }
 }
-
