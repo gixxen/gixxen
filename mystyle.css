@@ -1,13 +1,16 @@
+
 body{
-  margin: 0;
+  margin: 0 15%;
   font-family: montserrat;
 }
 .menuContainer{
+  margin: 0;
 display: block;
 height: 70px;
 width: 100%;
 }
 .menu{
+  margin: 0;
   height: 40px;
   width: 100%;
   z-index: 99;
@@ -82,7 +85,6 @@ display: inline-block;
 .imageBlock{
 overflow: hidden;
 position: relative;
-height:100%;
 width: 80%;
 margin: auto;
 }
@@ -129,4 +131,26 @@ h1{
 }
 p{
   margin: auto;
+  margin-bottom: 50px;
+}
+@media (max-width: 730px) {
+  body {
+    margin: 0;
+  }
+  .nav{
+    margin-left: 0;
+    float: none;
+  }
+  p{
+    font-size: 14px;
+  }
+  .slideUp, h1{
+    font-size: 18px;
+  }
+  .titleCover{
+    bottom: 20px;
+  }
+  .button, .button a{
+    width: 80px;
+  }
 }
